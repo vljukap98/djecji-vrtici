@@ -1,0 +1,213 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        color: #30323d;
+        margin: auto;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    h1 > a {
+        text-decoration: none;
+        color: #30323d;
+    }
+    nav {
+        text-align: center;
+        background-color: #e8c547;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    nav > a {
+        margin: auto;
+        padding: 10px;
+        text-decoration: none;
+        color: #30323d;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    nav > a:hover {
+        background-color: #e6ca65;
+        color: #5c80bc;
+    }
+    input[type=submit] {
+        margin: 5px;
+        border: none;
+        background-color: #e8c547;
+        color: #30323d;
+        font-size: 20px;
+    }
+    input[type=submit]:hover {
+        background-color: #e6ca65;
+        color: #5c80bc;
+    }
+    input[type=button] {
+        margin: 5px;
+        border: none;
+        background-color: #e8c547;
+        color: #30323d;
+        font-size: 20px;
+    }
+    input[type=button]:hover {
+        background-color: #e6ca65;
+        color: #5c80bc;
+    }
+
+    table {
+        margin: auto;
+    }
+    
+    th {
+        border-bottom: 5px solid #e6ca65;
+        text-align: center;
+        background-color: #e0cd7f;
+    }
+
+    td {
+        border-bottom: 5px solid #e6ca65;
+        text-align: center;
+        background-color: #f1e6bc;
+        padding: 10px;
+        opacity: 0.9;
+    }
+    
+    .sadrzaj {
+        border-radius: 5px;
+        padding: 5px;
+        margin: auto;
+        background-color: #e8c547;
+        width: 30%;
+        opacity: 0.9;
+    }
+
+    div.sadrzaj_dokumentacija {
+        border-radius: 5px;
+        padding: 5px;
+        background-color: #e8c547;
+        width: 80%;
+        opacity: 0.9;
+        margin: auto;
+        text-align: left;
+    }
+
+    img {
+        padding: 10px; 
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: #e8c547;
+        opacity: 0.9;
+    }
+    canvas{
+        pointer-events:none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        color: #30323d;
+        margin: auto;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    h1 > a {
+        text-decoration: none;
+        color: #30323d;
+    }
+    input[type=submit] {
+        margin: 5px;
+        border: none;
+        background-color: #e8c547;
+        color: #30323d;
+        font-size: 20px;
+    }
+    input[type=submit]:hover {
+        background-color: #e6ca65;
+        color: #5c80bc;
+    }
+    input[type=button] {
+        margin: 5px;
+        border: none;
+        background-color: #e8c547;
+        color: #30323d;
+        font-size: 20px;
+    }
+    input[type=button]:hover {
+        background-color: #e6ca65;
+        color: #5c80bc;
+    }
+
+    table {
+        margin: auto;
+    }
+    
+    th {
+        border-bottom: 5px solid #e6ca65;
+        text-align: center;
+        background-color: #e0cd7f;
+    }
+
+    td {
+        border-bottom: 5px solid #e6ca65;
+        text-align: center;
+        background-color: #f1e6bc;
+        padding: 10px;
+        opacity: 0.9;
+    }
+    
+    .sadrzaj {
+        border-radius: 5px;
+        padding: 5px;
+        margin: auto;
+        background-color: #e8c547;
+        width: 30%;
+        opacity: 0.9;
+    }
+
+    div.sadrzaj_dokumentacija {
+        border-radius: 5px;
+        padding: 5px;
+        background-color: #e8c547;
+        width: 80%;
+        opacity: 0.9;
+        margin: auto;
+        text-align: left;
+    }
+
+    img {
+        padding: 10px; 
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: #e8c547;
+        opacity: 0.9;
+    }
+    canvas{
+        pointer-events:none;
+    }
+    nav {
+        text-align: center;
+        background-color: #e8c547;
+        margin: auto;
+        width: 100%;
+    }
+    nav > a{
+        color: #30323d;
+        margin: auto;
+        padding: 10px;
+        text-decoration: none;
+        width: 99%;
+        display: block;
+    }
+    nav > a:hover {
+        background-color: #e6ca65;
+        color: #30323d;
+        margin: auto;
+    }
+}
