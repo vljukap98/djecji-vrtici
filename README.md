@@ -1,3 +1,3 @@
 # djecji-vrtici
 
-Not finilized application for administration of the kindergartens.
+Not finalized application for administration of the kindergartens.
